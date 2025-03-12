@@ -1,4 +1,4 @@
-# **README: Betty Neels Generative AI Model**
+# **Betty Neels Generative AI Model**
 
 ## **Overview**
 This project is a **Retrieval-Augmented Generation (RAG) NLP model** designed to generate romance novels in the style of **Betty Neels**. The model is built using **LLaMA 2** and leverages a collection of **28 Betty Neels novels** stored in a vector database for context retrieval. By combining **structured prompting, embedding retrieval, and generative modeling**, the system produces novel chapters that closely mimic Neels' unique storytelling style.
