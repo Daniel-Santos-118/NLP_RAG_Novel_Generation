@@ -35,7 +35,6 @@ This project is a **Retrieval-Augmented Generation (RAG) NLP model** designed to
 ### **4. Generative Model (LLaMA 2) for Novel Writing**
 - **Model Selection:**
   - Utilize **LLaMA 2 (7B or 13B)** with fine-tuning for stylistic improvements.
-  - Optionally employ **LoRA** for efficient parameter updates.
 - **Generation Process:**
   - Feed the **structured prompt** into **LLaMA 2**.
   - Use **temperature and top-k sampling** to balance creativity and coherence.
@@ -55,8 +54,7 @@ This project is a **Retrieval-Augmented Generation (RAG) NLP model** designed to
 - **PDF Processing:** `PyMuPDF`
 - **Vector Database:** `ChromaDB`
 - **Embeddings:** `sentence-transformers`, OpenAI API (`text-embedding-ada-002`)
-- **LLM:** `LLaMA 2` (via Hugging Face Transformers)
-- **Prompting Framework:** `LangChain` (optional for orchestration)
+- **LLM:** `LLaMA 2`
 
 ## **Future Updates**
 - Find and collect more publically available texts to increase data.
